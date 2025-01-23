@@ -1,0 +1,72 @@
+title-text: "Initialization Sequence"
+title-color: "#dadada"
+title-font: "Comfortaa Bold 24"
+desktop-image: "background.png"
+terminal-font: "Terminus Regular 14"
+terminal-left: "0%"
+terminal-top: "0%"
+terminal-width: "100%"
+terminal-height: "100%"
+
++ label {
+    left = 5%
+    top = 15%
+    height = 50
+    width = 10%
+    font = "Comfortaa Regular 24"
+    color = "#dadada"
+    align = "left"
+    text = "Nexus is now online"
+}
+
++ label {
+    left = 5%
+    top = 20%
+    height = 50
+    width = 10%
+    font = "Comfortaa Regular 24"
+    color = "#dadada"
+    align = "left"
+    text = "Welcome to the grid, operator..."
+}
+
++ boot_menu {
+    menu_pixmap_style = "boot_menu_*.png"
+    left = 5%
+    width = 50%
+    top = 28%
+    height = 90%
+    item_font = "Comfortaa Regular 18"
+    item_color = "#929292"
+    selected_item_font = "Comfortaa Regular 18"
+    selected_item_color = "#dadada"
+    item_height = 20
+    item_padding = 5
+    item_spacing = 10
+    scrollbar_width = 10
+    scrollbar_thumb = "slider_*.png"
+}
+
++ label {
+    left = 3%
+    top = 95%
+    height = 25
+    width = 600  
+    font = "Terminus Regular 14"
+    color = "#dadada"
+    align = "left"
+    text = "@KEYMAP_SHORT@"
+}
+
++ progress_bar {
+    id = "__timeout__"
+    left = 0%
+    width = 100%
+    top = 100%
+    height = 30
+    text = "%d seconds left"
+    text_color = "#dadada"
+    font = "Terminus Regular 18"
+    bar_style = "progress_bar_*.png"
+    highlight_style = "progress_highlight_*.png"
+}
