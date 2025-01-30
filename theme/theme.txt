@@ -57,16 +57,3 @@ terminal-height: "100%"
     align = "left"
     text = "@KEYMAP_SHORT@"
 }
-
-+ progress_bar {
-    id = "__timeout__"
-    left = 0%
-    width = 100%
-    top = 100%
-    height = 30
-    text = "%d seconds left"
-    text_color = "#dadada"
-    font = "Terminus Regular 18"
-    bar_style = "progress_bar_*.png"
-    highlight_style = "progress_highlight_*.png"
-}
